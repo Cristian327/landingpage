@@ -5,32 +5,60 @@ const header = () => {
     <header>
       <div className=" bg-white">
         <div className="container mx-auto">
-          <div className="flex justify-center px-6 my-12">
-            <div className="w-full xl:w-3/4 lg:w-11/12">
-              <div className="px-8 mb-4 text-center text-7xl text-midnight pt-12  font-bold">
-                <h5 className="pr-96 mt-8 flex">
+          <div className="justify-center px-6 my-12">
+            <div className="w-full xl:w-4/4 lg:w-11/12">
+              <div className="px-14 mb-4 text-center text-7xl text-midnight pt-12 font-bold">
+                <h5 className="px-10 mt-8 inline-flex	pb-1	">
                   Bring <br />
                   <figure className="w-20 h-20 rounded-full bg-bubble-gum content-center ">
-                    <svg
+                    <img
+                      src="assets/icons/Arrow 1.png"
                       className="mt-5 ml-4"
-                      width="44"
-                      height="33"
-                      viewBox="0 0 44 33"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M2.29053 14.0806C1.08797 14.0806 0.113108 15.0555 0.113108 16.2581C0.113108 17.4606 1.08797 18.4355 2.29053 18.4355V14.0806ZM43.0237 17.7977C43.8741 16.9474 43.8741 15.5687 43.0237 14.7184L29.1667 0.861376C28.3164 0.0110416 26.9377 0.0110416 26.0874 0.861376C25.2371 1.71171 25.2371 3.09038 26.0874 3.94071L38.4047 16.2581L26.0874 28.5754C25.2371 29.4257 25.2371 30.8044 26.0874 31.6547C26.9377 32.5051 28.3164 32.5051 29.1667 31.6547L43.0237 17.7977ZM2.29053 18.4355H41.4841V14.0806H2.29053V18.4355Z"
-                        fill="#00004F"
-                      />
-                    </svg>
+                      alt=""
+                    />
                   </figure>
-                  <div className="w-20 h-20 rounded-full bg-bubble-gum content-center flex-1"></div>
+                  <div className=" h-20 rounded-full z-0  bg-gradient-to-r from-midnight to-lineargradient xl:w-1/3 lg:w-3/12 ">
+                    <div className=" w-3/5 h-20 rounded-full bg-gradient-to-r from-midnight to-lineargradient z-50 ">
+                      <img
+                        src="assets/icons/heart.png"
+                        alt=""
+                        className="ml-36"
+                      />
+                    </div>
+                  </div>
                 </h5>
-                <h5 className="mt-8">
+                <h5 className="px-1 mt-8  pb-1">
+                  <img
+                    src="assets/icons/Ellipse 7.png"
+                    alt=""
+                    className="-mb-16	ml-36"
+                  />
+                  <img
+                    src="assets/icons/Vector 8.png"
+                    alt=""
+                    className="-mb-32 pl-44 mt-5"
+                  />
                   Your Remote <br />
+                  <div className="float-right">
+                    <div className="w-52 h-20 -my-16 rounded-full z-0 bg-gradient-to-r from-midnight to-lineargradient pb-1	">
+                      <div className=" w-3/5 h-20 rounded-full bg-gradient-to-r from-midnight to-lineargradient z-50 ">
+                        <img
+                          src="assets/icons/emoji.png"
+                          alt=""
+                          className="-my-2 ml-20 pt-2"
+                        />
+                      </div>
+                    </div>
+                  </div>
                 </h5>
-                <h5 className="mt-8 pl-40"> Team Togheter</h5>
+                <h5 className="mt-8 pl-40">
+                  <img
+                    src="assets/icons/Ellipse 10.png"
+                    alt=""
+                    className="-mb-16	ml-36 after:content-['.']"
+                  />
+                  Team Togheter
+                </h5>
               </div>
             </div>
           </div>
