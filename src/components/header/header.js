@@ -17,8 +17,8 @@ const header = () => {
                       alt=""
                     />
                   </figure>
-                  <div className=" h-20 rounded-full z-0  bg-gradient-to-r from-midnight to-lineargradient xl:w-1/3 lg:w-3/12 ">
-                    <div className=" w-3/5 h-20 rounded-full bg-gradient-to-r from-midnight to-lineargradient z-50 ">
+                  <div className=" h-20 rounded-full shadow-lg z-0  bg-gradient-to-r from-midnight to-lineargradient xl:w-1/3 lg:w-3/12  ">
+                    <div className=" w-3/5 h-20 rounded-full shadow-lg  bg-gradient-to-r from-midnight to-lineargradient z-50 ">
                       <img
                         src="assets/icons/heart.png"
                         alt=""
@@ -31,7 +31,7 @@ const header = () => {
                   <img
                     src="assets/icons/Ellipse 7.png"
                     alt=""
-                    className="-mb-16	ml-36"
+                    className="-mb-16	ml-36 "
                   />
                   <img
                     src="assets/icons/Vector 8.png"
@@ -40,8 +40,8 @@ const header = () => {
                   />
                   Your Remote <br />
                   <div className="float-right">
-                    <div className="w-52 h-20 -my-16 rounded-full z-0 bg-gradient-to-r from-midnight to-lineargradient pb-1	">
-                      <div className=" w-3/5 h-20 rounded-full bg-gradient-to-r from-midnight to-lineargradient z-50 ">
+                    <div className="w-52 h-20 -my-16 rounded-full shadow-lg bg-gradient-to-r from-midnight to-lineargradient pb-1	">
+                      <div className=" w-3/5 h-20 rounded-full shadow-lg bg-gradient-to-r from-midnight to-lineargradient z-50 ">
                         <img
                           src="assets/icons/emoji.png"
                           alt=""
@@ -64,7 +64,20 @@ const header = () => {
           </div>
         </div>
       </div>
-      <form className="py-6 w-full h-full bg-white rounded flex ">
+      <div class="flex flex-col mt-20 text-midnight">
+        <div class="container max-w-full px-4">
+          <div class="flex flex-wrap justify-center text-center mb-24">
+            <div class="w-full lg:w-2/4 px-4">
+              <p class="text-gray-700 text-lg font-light">
+                <strong>Weware means:</strong> Easy to find knowledge, content
+                and proceses. Announcements, team engagement, recognition and
+                profiles. 🙌
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <form className="-mt-14 w-full h-full bg-white rounded flex ">
         <div className="container mx-auto">
           <div className="flex justify-center px-6 my-12">
             <div className="w-full xl:w-3/4 lg:w-11/12">
@@ -72,20 +85,14 @@ const header = () => {
                 <span className="pt-4 mb-2 text-2xl">
                   <div className=" px-8 mb-4 text-center ">
                     <input
-                      className=" px-3 py-2 text-sm leading-tight text-gray-700 border rounded shadow appearance-none focus:outline-none focus:shadow-outline"
+                      className=" px-7 py-2 text-sm leading-tight text-midnight border  rounded-lg shadow appearance-none focus:outline-none focus:shadow-outline"
                       id="email"
                       type="email"
-                      placeholder="Enter Email Address..."
+                      placeholder="Your mail address"
                     />
-                    Reset Password
-                  </div>
-                  <div className="px-8 mb-4 text-center ">
-                    <button
-                      className="w-full px-4 py-2 font-bold text-white bg-red-500 rounded hover:bg-red-700 focus:outline-none focus:shadow-outline"
-                      type="button"
-                    >
-                      Reset Password
-                    </button>
+                    <span className="bg-bermuda px-7 py-2 text-sm  border text-white ml-10 rounded-lg">
+                      Get early access
+                    </span>
                   </div>
                 </span>
               </div>

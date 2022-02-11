@@ -11,6 +11,7 @@ module.exports = {
       silver: "#ecebff",
       "bubble-gum": "#ff77e9",
       bermuda: "#2BE2A0",
+      borderfaq: "#D9DAE6",
     },
   },
   plugins: [],
