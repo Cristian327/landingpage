@@ -4,13 +4,13 @@ const form = () => {
   return (
     <div>
       <div className="py-6 mb-10">
-        <div className="flex bg-gradient-to-r from-gradientbanner to-gradientbannerfinal rounded-lg shadow-lg overflow-hidden mx-auto max-w-sm lg:max-w-4xl">
+        <div className="block md:flex bg-gradient-to-r from-gradientbanner to-gradientbannerfinal rounded-lg shadow-lg overflow-hidden h-80 mx-auto max-w-sm lg:max-w-6xl">
           <img
-            className="hidden lg:block lg:w-1/2 bg-cover"
+            className="h-36 md:h-full lg:block lg:w-1/2 bg-cover"
             src="assets/img/img-banner-form.png"
           />
-          <div className="flex flex-col w-full pt-28 items-center justify-center h-44">
-            <form className="rounded-md py-10 px-12 ">
+          <div className="flex flex-col w-full md:pt-28 items-center justify-center h-44">
+            <form className="rounded-md md:py-10 px-12 ">
               <p className="text-xl mt-2 text-center font-semibold ">
                 Interested in early access? Join the waitlist
               </p>

@@ -20,7 +20,7 @@ const footer = () => {
         <form className="w-full h-3/4 bg-white rounded items-center align-middle md:mt-10">
           <div className="container mx-auto">
             <div className="flex justify-center text-center">
-              <div className="w-full xl:w-3/4 lg:w-10/12">
+              <div className="w-2/4 md:w-3/4 lg:w-10/12">
                 <span className=" mb-2 text-2xl">
                   <input
                     className=" px-7 py-2 text-sm leading-tight text-midnight border  rounded-lg shadow appearance-none focus:outline-none focus:shadow-outline"

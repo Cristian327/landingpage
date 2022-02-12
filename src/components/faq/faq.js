@@ -8,7 +8,7 @@ const faq = () => {
           <h3 className="mb-5 text-3xl font-bold text-center">FAQ</h3>
         </div>
       </div>
-      <div className="max-w-5xl mx-auto bg-white p-16 ">
+      <div className="max-w-6xl mx-auto bg-white p-16 ">
         <div id="accordion-collapse" data-accordion="collapse">
           <h2 id="accordion-collapse-heading-1">
             <button
