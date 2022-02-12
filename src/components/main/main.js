@@ -6,13 +6,78 @@ const main = () => {
       <div className="max-w-2xl mx-auto">
         <div className="p-4 w-full text-center bg-white sm:p-8 ">
           <div className="justify-center items-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
+            <img
+              src="assets/icons/Add topics.png"
+              alt=""
+              className="hidden md:block"
+            />
+
             <a
               href="#"
-              className="w-full sm:w-auto flex bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700"
+              className="min-w-full sm:w-auto flex bg-gray-800 hover:bg-gray-700 focus:ring-4 focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700"
             >
               <img src="assets/img/Screenpage.png" alt="" />
             </a>
+            <img
+              src="assets/icons/Activate .png"
+              alt=""
+              className="hidden md:block"
+            />
+            <div className="mobile-items">
+              <img
+                src="assets/icons/Activate mobile.png"
+                alt=""
+                className="block md:hidden"
+              />
+              <svg
+                width="27"
+                height="3"
+                viewBox="0 0 27 3"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                className="block md:hidden"
+              >
+                <path
+                  d="M25.0882 1.33659C19.4822 1.33659 17.4706 1.33659 12.5294 1.33659C9.96032 1.33659 7.707 1.58831 5.14051 1.58831C3.74948 1.58831 2.38467 1.79419 0.999991 1.79419"
+                  stroke="#00004F"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+
+              <img
+                src="assets/icons/Add topics mobile.png"
+                alt=""
+                className="block md:hidden"
+              />
+              <svg
+                width="27"
+                height="3"
+                viewBox="0 0 27 3"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                className="block md:hidden"
+              >
+                <path
+                  d="M25.0882 1.33659C19.4822 1.33659 17.4706 1.33659 12.5294 1.33659C9.96032 1.33659 7.707 1.58831 5.14051 1.58831C3.74948 1.58831 2.38467 1.79419 0.999991 1.79419"
+                  stroke="#00004F"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+
+              <img
+                src="assets/icons/Add mobile.png"
+                alt=""
+                className="block md:hidden"
+              />
+            </div>
           </div>
+          <img
+            src="assets/icons/Description.png"
+            alt=""
+            className="hidden md:block"
+          />
         </div>
       </div>
       <div className=" mt-20 text-midnight">
