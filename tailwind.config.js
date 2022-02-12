@@ -12,6 +12,8 @@ module.exports = {
       "bubble-gum": "#ff77e9",
       bermuda: "#2BE2A0",
       borderfaq: "#D9DAE6",
+      gradientbanner: "#5B43DF",
+      gradientbannerfinal: "#CF5B92 ",
     },
   },
   plugins: [],

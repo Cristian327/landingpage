@@ -5,6 +5,7 @@ import Main from "./components/main/main";
 import Secondsection from "./components/second-section/secondsection";
 import FormBanner from "./components/form-banner/form";
 import Faq from "./components/faq/faq";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Secondsection />
       <FormBanner />
       <Faq />
+      <Footer />
     </div>
   );
 }

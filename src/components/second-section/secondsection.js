@@ -5,28 +5,28 @@ const secondsection = () => {
     <section>
       {/* Aside right text and left image */}
       <div className="items-center flex flex-wrap align-middle ">
-        <figure className="flex">
-          <div className=" w-48 h-16 ">
-            <img src="assets/img/chat.png" className="ml-40 z-10 " />
+        <figure className="md:flex">
+          <div className=" w-38 md:w-48 h-16 ">
+            <img src="assets/img/chat.png" className=" md:ml-40 z-10 " />
           </div>
-          <div className="w-full md:w-11/12/ ml-auto mr-auto px-4">
+          <div className="w-full md:w-11/12 ml-auto mr-auto px-4">
             <img
               alt="..."
-              className="max-w-7xl -z-0 "
+              className="max-w-1xl md:max-w-7xl"
               src="assets/img/Announcements.png"
             />
           </div>
         </figure>
 
-        <div className="w-full md:w-4/12 ml-auto mr-auto px-4 items-center mb-40">
+        <div className="w-full md:w-4/12 ml-auto mr-auto px-4  items-center mb-40">
           <div className="md:pr-12">
             <div className=" inline-flex items-center justify-center w-16 h-16 mb-6 mt-8 ">
               <img src="assets/icons/star-green.png" alt="" className="mr-48" />
             </div>
-            <h3 className="text-3xl font-semibold  text-midnight">
-              Announcements{" "}
+            <h3 className="text-3xl font-semibold  text-midnight text-center md:text-left">
+              Announcements
             </h3>
-            <p className="mt-4 text-lg leading-relaxed text-midnight">
+            <p className="mt-4 text-lg leading-relaxed text-midnight justify-center text-center md:text-left">
               Announcements Your entire team in one place, with Engage your team
               with company wide announcements that entice engagement. The team
               homepage reveals everything going on with your team.
@@ -40,13 +40,13 @@ const secondsection = () => {
       <div className="items-center flex flex-wrap align-middle ">
         <div className="w-full md:w-3/12  mr-auto px-4 items-center ml-40 mb-20">
           <div className="md:pr-1">
-            <h3 className="text-3xl font-semibold  text-midnight">
-              Announcements{" "}
+            <h3 className="text-3xl font-semibold  text-midnight text-center md:text-left">
+              Wiki
             </h3>
-            <p className="mt-4 text-lg leading-relaxed text-midnight">
-              Announcements Your entire team in one place, with Engage your team
-              with company wide announcements that entice engagement. The team
-              homepage reveals everything going on with your team.
+            <p className="mt-4 text-lg leading-relaxed text-midnight text-center md:text-left">
+              Create and share knowledge with your team. Whether it be company
+              processes, presentations, content your team has created, anything!
+              Find anything directly from Slack too.
             </p>
           </div>
         </div>
@@ -55,7 +55,7 @@ const secondsection = () => {
           <div className="w-full md:w-4/5  ml-auto mr-auto px-4">
             <img
               alt="..."
-              className="md:max-w-xl -z-0 "
+              className="max-w-1xl md:max-w-7xl"
               src="assets/img/Announcements.png"
             />
           </div>

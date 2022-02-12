@@ -3,7 +3,7 @@ import React from "react";
 const faq = () => {
   return (
     <div>
-      <div className="flex flex-col  text-midnight">
+      <div className="flex flex-coltext-midnight">
         <div className="container max-w-full px-4">
           <h3 className="mb-5 text-3xl font-bold text-center">FAQ</h3>
         </div>

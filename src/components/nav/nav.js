@@ -2,7 +2,7 @@ import React from "react";
 
 const nav = () => {
   return (
-    <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800">
+    <nav className="bg-white  px-2 sm:px-4 sm:flex-row-reverse py-2.5 rounded">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
         <a href="#" className="flex">
           <img src="assets/icons/Imagotype.png"></img>

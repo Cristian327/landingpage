@@ -4,7 +4,7 @@ const main = () => {
   return (
     <main>
       <div className="max-w-2xl mx-auto">
-        <div className="p-4 w-full text-center bg-white rounded-lg  shadow-md sm:p-8 ">
+        <div className="p-4 w-full text-center bg-white sm:p-8 ">
           <div className="justify-center items-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
             <a
               href="#"
@@ -15,12 +15,12 @@ const main = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col mt-20 text-midnight">
+      <div className=" mt-20 text-midnight">
         <div className="container max-w-full px-4">
-          <h3 className="mb-10 text-3xl font-bold justify-center text-center">
-            Work fast from anywhere
+          <h3 className="mb-10 text-2xl font-bold text-center">
+            Distributed teams brought together
           </h3>
-          <div className="max-w-xl mx-auto flex justify-evenly  mb-10 	">
+          <div className="max-w-xl mx-auto flex flex-wrap justify-center  md:grid grid-cols-6 gap-6 mb-10">
             <img
               src="assets/img/betterworks.png"
               alt=""
@@ -46,7 +46,7 @@ const main = () => {
         <div className="container max-w-full px-4">
           <div className="flex flex-wrap justify-center text-center mb-24">
             <div className="w-full lg:w-2/4 px-4">
-              <h3 className="mb-2 text-3xl font-bold text-gray-900 dark:text-white">
+              <h3 className="mb-2 text-2xl font-bold text-gray-900 dark:text-white">
                 Engage your remote team
               </h3>
               <p className="text-gray-700 text-lg font-light">
@@ -57,10 +57,11 @@ const main = () => {
               </p>
               <br />
               <p className="text-gray-700 text-lg font-light">
-                Weware solves all that. Create your team directory with
-                profiles, share company announcements, create knowledge wiki
-                where you share important information and processes. Best of
-                all, weware is also a place to engage and recognize effort.
+                <strong>Weware solves all that.</strong> Create your team
+                directory with profiles, share company announcements, create
+                knowledge wiki where you share important information and
+                processes. Best of all, weware is also a place to engage and
+                recognize effort.
               </p>
             </div>
           </div>
